@@ -7,9 +7,9 @@ class CustomToolbar extends Toolbar
         return(
             <div>
                 <div className="rbc-btn-group">
-                <button type="button" onClick={() => this.navigate('PREV')}>Back</button>
+                <button type="button" onClick={() => this.navigate('PREV')}>Prev Month</button>
                     <button type="button" onClick={() => this.navigate('TODAY')}>Today</button>					
-					<button type="button" onClick={() => this.navigate('NEXT')}>Next</button>
+					<button type="button" onClick={() => this.navigate('NEXT')}>Next Month</button>
 				</div>
 				<div className="rbc-toolbar-label">{this.props.label}</div>
 				<div className="rbc-btn-group">
